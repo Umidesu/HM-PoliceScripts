@@ -6,18 +6,15 @@ version '1.0.0'
 lua54 'yes'
 
 dependencies {
-    'es_extended',
-    'esx_menu_default'
+    'es_extended'
 }
 
 client_scripts {
-    '@es_extended/locale.lua',
     'config.lua',
     'client/main.lua'
 }
 
 server_scripts {
-    '@es_extended/locale.lua',
     'config.lua',
     'server/main.lua'
 }
