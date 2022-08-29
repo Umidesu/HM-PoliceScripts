@@ -11,7 +11,8 @@ dependencies {
 
 client_scripts {
     'config.lua',
-    'client/main.lua'
+    'client/radar.lua',
+    'client/notify.lua'
 }
 
 server_scripts {
